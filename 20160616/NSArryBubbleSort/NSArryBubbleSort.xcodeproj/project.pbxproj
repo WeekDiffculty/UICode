@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCAC5D9E1D12505800A09943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAC5D9D1D12505800A09943 /* main.m */; };
+		CCAC5DA61D12514D00A09943 /* NSObject+BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAC5DA51D12514D00A09943 /* NSObject+BubbleSort.m */; };
+		CCAC5DA91D1253FD00A09943 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAC5DA81D1253FD00A09943 /* Car.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCAC5D981D12505800A09943 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CCAC5D9A1D12505800A09943 /* NSArryBubbleSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSArryBubbleSort; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAC5D9D1D12505800A09943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCAC5DA41D12514D00A09943 /* NSObject+BubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BubbleSort.h"; sourceTree = "<group>"; };
+		CCAC5DA51D12514D00A09943 /* NSObject+BubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BubbleSort.m"; sourceTree = "<group>"; };
+		CCAC5DA71D1253FD00A09943 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		CCAC5DA81D1253FD00A09943 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCAC5D971D12505800A09943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCAC5D911D12505800A09943 = {
+			isa = PBXGroup;
+			children = (
+				CCAC5D9C1D12505800A09943 /* NSArryBubbleSort */,
+				CCAC5D9B1D12505800A09943 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCAC5D9B1D12505800A09943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCAC5D9A1D12505800A09943 /* NSArryBubbleSort */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCAC5D9C1D12505800A09943 /* NSArryBubbleSort */ = {
+			isa = PBXGroup;
+			children = (
+				CCAC5D9D1D12505800A09943 /* main.m */,
+				CCAC5DA41D12514D00A09943 /* NSObject+BubbleSort.h */,
+				CCAC5DA51D12514D00A09943 /* NSObject+BubbleSort.m */,
+				CCAC5DA71D1253FD00A09943 /* Car.h */,
+				CCAC5DA81D1253FD00A09943 /* Car.m */,
+			);
+			path = NSArryBubbleSort;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCAC5D991D12505800A09943 /* NSArryBubbleSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAC5DA11D12505800A09943 /* Build configuration list for PBXNativeTarget "NSArryBubbleSort" */;
+			buildPhases = (
+				CCAC5D961D12505800A09943 /* Sources */,
+				CCAC5D971D12505800A09943 /* Frameworks */,
+				CCAC5D981D12505800A09943 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSArryBubbleSort;
+			productName = NSArryBubbleSort;
+			productReference = CCAC5D9A1D12505800A09943 /* NSArryBubbleSort */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCAC5D921D12505800A09943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CCAC5D991D12505800A09943 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CCAC5D951D12505800A09943 /* Build configuration list for PBXProject "NSArryBubbleSort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCAC5D911D12505800A09943;
+			productRefGroup = CCAC5D9B1D12505800A09943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCAC5D991D12505800A09943 /* NSArryBubbleSort */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCAC5D961D12505800A09943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAC5DA91D1253FD00A09943 /* Car.m in Sources */,
+				CCAC5D9E1D12505800A09943 /* main.m in Sources */,
+				CCAC5DA61D12514D00A09943 /* NSObject+BubbleSort.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CCAC5D9F1D12505800A09943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CCAC5DA01D12505800A09943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CCAC5DA21D12505800A09943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCAC5DA31D12505800A09943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCAC5D951D12505800A09943 /* Build configuration list for PBXProject "NSArryBubbleSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAC5D9F1D12505800A09943 /* Debug */,
+				CCAC5DA01D12505800A09943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAC5DA11D12505800A09943 /* Build configuration list for PBXNativeTarget "NSArryBubbleSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAC5DA21D12505800A09943 /* Debug */,
+				CCAC5DA31D12505800A09943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCAC5D921D12505800A09943 /* Project object */;
+}

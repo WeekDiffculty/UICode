@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA22EA61D0D02F40024362B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA22EA51D0D02F40024362B /* main.m */; };
+		CCA22EAE1D0D03000024362B /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA22EAD1D0D03000024362B /* Car.m */; };
+		CCA22EB11D0D08810024362B /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA22EB01D0D08810024362B /* Engine.m */; };
+		CCA22EB41D0D0BC90024362B /* GeneralCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA22EB31D0D0BC90024362B /* GeneralCar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCA22EA01D0D02F40024362B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CCA22EA21D0D02F40024362B /* 任意对象的拷贝 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "任意对象的拷贝"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA22EA51D0D02F40024362B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCA22EAC1D0D03000024362B /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		CCA22EAD1D0D03000024362B /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		CCA22EAF1D0D08810024362B /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		CCA22EB01D0D08810024362B /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		CCA22EB21D0D0BC90024362B /* GeneralCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralCar.h; sourceTree = "<group>"; };
+		CCA22EB31D0D0BC90024362B /* GeneralCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralCar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA22E9F1D0D02F40024362B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA22E991D0D02F40024362B = {
+			isa = PBXGroup;
+			children = (
+				CCA22EA41D0D02F40024362B /* 任意对象的拷贝 */,
+				CCA22EA31D0D02F40024362B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA22EA31D0D02F40024362B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA22EA21D0D02F40024362B /* 任意对象的拷贝 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA22EA41D0D02F40024362B /* 任意对象的拷贝 */ = {
+			isa = PBXGroup;
+			children = (
+				CCA22EA51D0D02F40024362B /* main.m */,
+				CCA22EAC1D0D03000024362B /* Car.h */,
+				CCA22EAD1D0D03000024362B /* Car.m */,
+				CCA22EAF1D0D08810024362B /* Engine.h */,
+				CCA22EB01D0D08810024362B /* Engine.m */,
+				CCA22EB21D0D0BC90024362B /* GeneralCar.h */,
+				CCA22EB31D0D0BC90024362B /* GeneralCar.m */,
+			);
+			path = "任意对象的拷贝";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA22EA11D0D02F40024362B /* 任意对象的拷贝 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA22EA91D0D02F40024362B /* Build configuration list for PBXNativeTarget "任意对象的拷贝" */;
+			buildPhases = (
+				CCA22E9E1D0D02F40024362B /* Sources */,
+				CCA22E9F1D0D02F40024362B /* Frameworks */,
+				CCA22EA01D0D02F40024362B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "任意对象的拷贝";
+			productName = "任意对象的拷贝";
+			productReference = CCA22EA21D0D02F40024362B /* 任意对象的拷贝 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA22E9A1D0D02F40024362B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CCA22EA11D0D02F40024362B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CCA22E9D1D0D02F40024362B /* Build configuration list for PBXProject "任意对象的拷贝" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCA22E991D0D02F40024362B;
+			productRefGroup = CCA22EA31D0D02F40024362B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA22EA11D0D02F40024362B /* 任意对象的拷贝 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA22E9E1D0D02F40024362B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA22EAE1D0D03000024362B /* Car.m in Sources */,
+				CCA22EA61D0D02F40024362B /* main.m in Sources */,
+				CCA22EB11D0D08810024362B /* Engine.m in Sources */,
+				CCA22EB41D0D0BC90024362B /* GeneralCar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CCA22EA71D0D02F40024362B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CCA22EA81D0D02F40024362B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CCA22EAA1D0D02F40024362B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCA22EAB1D0D02F40024362B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA22E9D1D0D02F40024362B /* Build configuration list for PBXProject "任意对象的拷贝" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA22EA71D0D02F40024362B /* Debug */,
+				CCA22EA81D0D02F40024362B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA22EA91D0D02F40024362B /* Build configuration list for PBXNativeTarget "任意对象的拷贝" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA22EAA1D0D02F40024362B /* Debug */,
+				CCA22EAB1D0D02F40024362B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA22E9A1D0D02F40024362B /* Project object */;
+}

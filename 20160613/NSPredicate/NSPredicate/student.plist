@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>ÄZHanghongzheng张宏政</string>
+		<key>age</key>
+		<integer>20</integer>
+		<key>sex</key>
+		<true/>
+		<key>ID</key>
+		<string>41012151515151515</string>
+		<key>money</key>
+		<integer>1000</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>zhaowenhao赵文豪</string>
+		<key>age</key>
+		<integer>21</integer>
+		<key>sex</key>
+		<true/>
+		<key>ID</key>
+		<string>4120012414141411</string>
+		<key>money</key>
+		<integer>1500</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>zhaomingming赵明明</string>
+		<key>age</key>
+		<integer>20</integer>
+		<key>sex</key>
+		<false/>
+		<key>ID</key>
+		<string>410124141414114124</string>
+		<key>money</key>
+		<integer>800</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>amazhuqiang马助强</string>
+		<key>age</key>
+		<integer>22</integer>
+		<key>sex</key>
+		<true/>
+		<key>ID</key>
+		<string>41015125151515155</string>
+		<key>money</key>
+		<integer>2000</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Aliusha刘莎</string>
+		<key>age</key>
+		<integer>18</integer>
+		<key>sex</key>
+		<false/>
+		<key>ID</key>
+		<string>41012415151515125</string>
+		<key>money</key>
+		<integer>200</integer>
+	</dict>
+</array>
+</plist>
