@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>caipin</key>
+	<array>
+		<string>蚂蚁上树</string>
+		<string>红烧狮子头</string>
+		<string>佛跳墙</string>
+		<string>骨灰拌饭</string>
+		<string>火烧大使馆</string>
+		<string>唐素立即</string>
+		<string>航空母舰</string>
+		<string>水煮肉片</string>
+	</array>
+	<key>hede</key>
+	<array>
+		<string>82年雪碧</string>
+		<string>88口子窖</string>
+		<string>98洪水</string>
+		<string>果粒橙</string>
+		<string>哇哈哈</string>
+		<string>爽歪歪</string>
+		<string>子母河水</string>
+	</array>
+</dict>
+</plist>

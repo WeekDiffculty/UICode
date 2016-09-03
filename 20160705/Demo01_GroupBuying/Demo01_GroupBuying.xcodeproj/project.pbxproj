@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC075F031D2B462C00D6476E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC075F021D2B462C00D6476E /* main.m */; };
+		CC075F061D2B462C00D6476E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC075F051D2B462C00D6476E /* AppDelegate.m */; };
+		CC075F0C1D2B462C00D6476E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC075F0A1D2B462C00D6476E /* Main.storyboard */; };
+		CC075F0E1D2B462C00D6476E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC075F0D1D2B462C00D6476E /* Assets.xcassets */; };
+		CC075F111D2B462C00D6476E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC075F0F1D2B462C00D6476E /* LaunchScreen.storyboard */; };
+		CC075F191D2B495300D6476E /* GroupBuying.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC075F181D2B495300D6476E /* GroupBuying.plist */; };
+		CC075F1F1D2B49B700D6476E /* QYGroupBuyingController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC075F1C1D2B49B700D6476E /* QYGroupBuyingController.m */; };
+		CC075F221D2B4A0300D6476E /* QYGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC075F211D2B4A0300D6476E /* QYGoodsModel.m */; };
+		CC075F251D2B4F2E00D6476E /* QYGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC075F241D2B4F2E00D6476E /* QYGoodsCell.m */; };
+		CC075F271D2B4F4700D6476E /* QYGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC075F261D2B4F4700D6476E /* QYGoodsCell.xib */; };
+		CC581C001D2B5B1F003FBE75 /* QYAdsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC581BFF1D2B5B1F003FBE75 /* QYAdsCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC075EFE1D2B462C00D6476E /* Demo01_GroupBuying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo01_GroupBuying.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC075F021D2B462C00D6476E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC075F041D2B462C00D6476E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC075F051D2B462C00D6476E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC075F0B1D2B462C00D6476E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC075F0D1D2B462C00D6476E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC075F101D2B462C00D6476E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC075F121D2B462C00D6476E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC075F181D2B495300D6476E /* GroupBuying.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GroupBuying.plist; sourceTree = "<group>"; };
+		CC075F1B1D2B49B700D6476E /* QYGroupBuyingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYGroupBuyingController.h; sourceTree = "<group>"; };
+		CC075F1C1D2B49B700D6476E /* QYGroupBuyingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYGroupBuyingController.m; sourceTree = "<group>"; };
+		CC075F201D2B4A0300D6476E /* QYGoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYGoodsModel.h; sourceTree = "<group>"; };
+		CC075F211D2B4A0300D6476E /* QYGoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYGoodsModel.m; sourceTree = "<group>"; };
+		CC075F231D2B4F2E00D6476E /* QYGoodsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYGoodsCell.h; sourceTree = "<group>"; };
+		CC075F241D2B4F2E00D6476E /* QYGoodsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYGoodsCell.m; sourceTree = "<group>"; };
+		CC075F261D2B4F4700D6476E /* QYGoodsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYGoodsCell.xib; sourceTree = "<group>"; };
+		CC581BFE1D2B5B1F003FBE75 /* QYAdsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYAdsCell.h; sourceTree = "<group>"; };
+		CC581BFF1D2B5B1F003FBE75 /* QYAdsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYAdsCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC075EFB1D2B462C00D6476E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC075EF51D2B462C00D6476E = {
+			isa = PBXGroup;
+			children = (
+				CC075F001D2B462C00D6476E /* Demo01_GroupBuying */,
+				CC075EFF1D2B462C00D6476E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC075EFF1D2B462C00D6476E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC075EFE1D2B462C00D6476E /* Demo01_GroupBuying.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC075F001D2B462C00D6476E /* Demo01_GroupBuying */ = {
+			isa = PBXGroup;
+			children = (
+				CC075F041D2B462C00D6476E /* AppDelegate.h */,
+				CC075F051D2B462C00D6476E /* AppDelegate.m */,
+				CC075F1A1D2B49B700D6476E /* Controllers */,
+				CC075F1D1D2B49B700D6476E /* Models */,
+				CC075F1E1D2B49B700D6476E /* Views */,
+				CC075F011D2B462C00D6476E /* Supporting Files */,
+			);
+			path = Demo01_GroupBuying;
+			sourceTree = "<group>";
+		};
+		CC075F011D2B462C00D6476E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC075F0A1D2B462C00D6476E /* Main.storyboard */,
+				CC075F0D1D2B462C00D6476E /* Assets.xcassets */,
+				CC075F0F1D2B462C00D6476E /* LaunchScreen.storyboard */,
+				CC075F121D2B462C00D6476E /* Info.plist */,
+				CC075F181D2B495300D6476E /* GroupBuying.plist */,
+				CC075F021D2B462C00D6476E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC075F1A1D2B49B700D6476E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC075F1B1D2B49B700D6476E /* QYGroupBuyingController.h */,
+				CC075F1C1D2B49B700D6476E /* QYGroupBuyingController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC075F1D1D2B49B700D6476E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC075F201D2B4A0300D6476E /* QYGoodsModel.h */,
+				CC075F211D2B4A0300D6476E /* QYGoodsModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC075F1E1D2B49B700D6476E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC075F231D2B4F2E00D6476E /* QYGoodsCell.h */,
+				CC075F241D2B4F2E00D6476E /* QYGoodsCell.m */,
+				CC075F261D2B4F4700D6476E /* QYGoodsCell.xib */,
+				CC581BFE1D2B5B1F003FBE75 /* QYAdsCell.h */,
+				CC581BFF1D2B5B1F003FBE75 /* QYAdsCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC075EFD1D2B462C00D6476E /* Demo01_GroupBuying */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC075F151D2B462C00D6476E /* Build configuration list for PBXNativeTarget "Demo01_GroupBuying" */;
+			buildPhases = (
+				CC075EFA1D2B462C00D6476E /* Sources */,
+				CC075EFB1D2B462C00D6476E /* Frameworks */,
+				CC075EFC1D2B462C00D6476E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo01_GroupBuying;
+			productName = Demo01_GroupBuying;
+			productReference = CC075EFE1D2B462C00D6476E /* Demo01_GroupBuying.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC075EF61D2B462C00D6476E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC075EFD1D2B462C00D6476E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CC075EF91D2B462C00D6476E /* Build configuration list for PBXProject "Demo01_GroupBuying" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC075EF51D2B462C00D6476E;
+			productRefGroup = CC075EFF1D2B462C00D6476E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC075EFD1D2B462C00D6476E /* Demo01_GroupBuying */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC075EFC1D2B462C00D6476E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC075F111D2B462C00D6476E /* LaunchScreen.storyboard in Resources */,
+				CC075F191D2B495300D6476E /* GroupBuying.plist in Resources */,
+				CC075F0E1D2B462C00D6476E /* Assets.xcassets in Resources */,
+				CC075F271D2B4F4700D6476E /* QYGoodsCell.xib in Resources */,
+				CC075F0C1D2B462C00D6476E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC075EFA1D2B462C00D6476E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC075F251D2B4F2E00D6476E /* QYGoodsCell.m in Sources */,
+				CC075F221D2B4A0300D6476E /* QYGoodsModel.m in Sources */,
+				CC581C001D2B5B1F003FBE75 /* QYAdsCell.m in Sources */,
+				CC075F1F1D2B49B700D6476E /* QYGroupBuyingController.m in Sources */,
+				CC075F061D2B462C00D6476E /* AppDelegate.m in Sources */,
+				CC075F031D2B462C00D6476E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC075F0A1D2B462C00D6476E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC075F0B1D2B462C00D6476E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC075F0F1D2B462C00D6476E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC075F101D2B462C00D6476E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC075F131D2B462C00D6476E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC075F141D2B462C00D6476E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC075F161D2B462C00D6476E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo01_GroupBuying/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.Demo01-GroupBuying";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC075F171D2B462C00D6476E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo01_GroupBuying/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.Demo01-GroupBuying";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC075EF91D2B462C00D6476E /* Build configuration list for PBXProject "Demo01_GroupBuying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC075F131D2B462C00D6476E /* Debug */,
+				CC075F141D2B462C00D6476E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC075F151D2B462C00D6476E /* Build configuration list for PBXNativeTarget "Demo01_GroupBuying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC075F161D2B462C00D6476E /* Debug */,
+				CC075F171D2B462C00D6476E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC075EF61D2B462C00D6476E /* Project object */;
+}

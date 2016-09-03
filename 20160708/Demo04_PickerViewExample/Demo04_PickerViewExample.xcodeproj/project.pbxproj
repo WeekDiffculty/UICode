@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCD67C751D2F4EC50076CE1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD67C741D2F4EC50076CE1E /* main.m */; };
+		CCD67C781D2F4EC50076CE1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD67C771D2F4EC50076CE1E /* AppDelegate.m */; };
+		CCD67C7B1D2F4EC50076CE1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD67C7A1D2F4EC50076CE1E /* ViewController.m */; };
+		CCD67C7E1D2F4EC50076CE1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD67C7C1D2F4EC50076CE1E /* Main.storyboard */; };
+		CCD67C801D2F4EC50076CE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD67C7F1D2F4EC50076CE1E /* Assets.xcassets */; };
+		CCD67C831D2F4EC50076CE1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD67C811D2F4EC50076CE1E /* LaunchScreen.storyboard */; };
+		CCD67C8B1D2F4F290076CE1E /* CaiDan.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCD67C8A1D2F4F290076CE1E /* CaiDan.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCD67C701D2F4EC50076CE1E /* Demo04_PickerViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo04_PickerViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD67C741D2F4EC50076CE1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCD67C761D2F4EC50076CE1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCD67C771D2F4EC50076CE1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCD67C791D2F4EC50076CE1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCD67C7A1D2F4EC50076CE1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCD67C7D1D2F4EC50076CE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCD67C7F1D2F4EC50076CE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCD67C821D2F4EC50076CE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCD67C841D2F4EC50076CE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD67C8A1D2F4F290076CE1E /* CaiDan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CaiDan.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD67C6D1D2F4EC50076CE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCD67C671D2F4EC50076CE1E = {
+			isa = PBXGroup;
+			children = (
+				CCD67C721D2F4EC50076CE1E /* Demo04_PickerViewExample */,
+				CCD67C711D2F4EC50076CE1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD67C711D2F4EC50076CE1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD67C701D2F4EC50076CE1E /* Demo04_PickerViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD67C721D2F4EC50076CE1E /* Demo04_PickerViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				CCD67C761D2F4EC50076CE1E /* AppDelegate.h */,
+				CCD67C771D2F4EC50076CE1E /* AppDelegate.m */,
+				CCD67C791D2F4EC50076CE1E /* ViewController.h */,
+				CCD67C7A1D2F4EC50076CE1E /* ViewController.m */,
+				CCD67C7C1D2F4EC50076CE1E /* Main.storyboard */,
+				CCD67C731D2F4EC50076CE1E /* Supporting Files */,
+			);
+			path = Demo04_PickerViewExample;
+			sourceTree = "<group>";
+		};
+		CCD67C731D2F4EC50076CE1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD67C8A1D2F4F290076CE1E /* CaiDan.plist */,
+				CCD67C7F1D2F4EC50076CE1E /* Assets.xcassets */,
+				CCD67C811D2F4EC50076CE1E /* LaunchScreen.storyboard */,
+				CCD67C841D2F4EC50076CE1E /* Info.plist */,
+				CCD67C741D2F4EC50076CE1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD67C6F1D2F4EC50076CE1E /* Demo04_PickerViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD67C871D2F4EC50076CE1E /* Build configuration list for PBXNativeTarget "Demo04_PickerViewExample" */;
+			buildPhases = (
+				CCD67C6C1D2F4EC50076CE1E /* Sources */,
+				CCD67C6D1D2F4EC50076CE1E /* Frameworks */,
+				CCD67C6E1D2F4EC50076CE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo04_PickerViewExample;
+			productName = Demo04_PickerViewExample;
+			productReference = CCD67C701D2F4EC50076CE1E /* Demo04_PickerViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD67C681D2F4EC50076CE1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CCD67C6F1D2F4EC50076CE1E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CCD67C6B1D2F4EC50076CE1E /* Build configuration list for PBXProject "Demo04_PickerViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCD67C671D2F4EC50076CE1E;
+			productRefGroup = CCD67C711D2F4EC50076CE1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD67C6F1D2F4EC50076CE1E /* Demo04_PickerViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD67C6E1D2F4EC50076CE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD67C831D2F4EC50076CE1E /* LaunchScreen.storyboard in Resources */,
+				CCD67C801D2F4EC50076CE1E /* Assets.xcassets in Resources */,
+				CCD67C8B1D2F4F290076CE1E /* CaiDan.plist in Resources */,
+				CCD67C7E1D2F4EC50076CE1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD67C6C1D2F4EC50076CE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD67C7B1D2F4EC50076CE1E /* ViewController.m in Sources */,
+				CCD67C781D2F4EC50076CE1E /* AppDelegate.m in Sources */,
+				CCD67C751D2F4EC50076CE1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCD67C7C1D2F4EC50076CE1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD67C7D1D2F4EC50076CE1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD67C811D2F4EC50076CE1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD67C821D2F4EC50076CE1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCD67C851D2F4EC50076CE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCD67C861D2F4EC50076CE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD67C881D2F4EC50076CE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo04_PickerViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.Demo04-PickerViewExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCD67C891D2F4EC50076CE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo04_PickerViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.Demo04-PickerViewExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD67C6B1D2F4EC50076CE1E /* Build configuration list for PBXProject "Demo04_PickerViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD67C851D2F4EC50076CE1E /* Debug */,
+				CCD67C861D2F4EC50076CE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD67C871D2F4EC50076CE1E /* Build configuration list for PBXNativeTarget "Demo04_PickerViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD67C881D2F4EC50076CE1E /* Debug */,
+				CCD67C891D2F4EC50076CE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCD67C681D2F4EC50076CE1E /* Project object */;
+}

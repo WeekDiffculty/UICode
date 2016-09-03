@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>cat01</string>
+		<key>desc</key>
+		<string>能直立行走的, 十有八九都是喵星人~~~</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>cat02</string>
+		<key>desc</key>
+		<string>看毛啊看, 你还看, 还看?? 看? 好吧.....</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>cat03</string>
+		<key>desc</key>
+		<string>伦家萌不萌啊~~??</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>cat04</string>
+		<key>desc</key>
+		<string>溢家银嘛, 很羡慕的有木有???</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>cat05</string>
+		<key>desc</key>
+		<string>伦家不想减肥...</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>cat06</string>
+		<key>desc</key>
+		<string>身材好的不行不行的有木有?冲动的有木有~~~~</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>cat07</string>
+		<key>desc</key>
+		<string>俺的打扮儿咋样啊? 喵探?</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>cat08</string>
+		<key>desc</key>
+		<string>兄弟姐妹一大家catcat🐶</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>cat09</string>
+		<key>desc</key>
+		<string>筐子里害怕的不行不行的...</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>cat10</string>
+		<key>desc</key>
+		<string>......................................</string>
+	</dict>
+</array>
+</plist>

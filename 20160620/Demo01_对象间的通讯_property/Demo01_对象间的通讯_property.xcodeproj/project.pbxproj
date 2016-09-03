@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCDE91C71D17825B005F2B7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE91C61D17825B005F2B7A /* main.m */; };
+		CCDE91CA1D17825B005F2B7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE91C91D17825B005F2B7A /* AppDelegate.m */; };
+		CCDE91CD1D17825B005F2B7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE91CC1D17825B005F2B7A /* ViewController.m */; };
+		CCDE91D01D17825B005F2B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDE91CE1D17825B005F2B7A /* Main.storyboard */; };
+		CCDE91D21D17825B005F2B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDE91D11D17825B005F2B7A /* Assets.xcassets */; };
+		CCDE91D51D17825B005F2B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDE91D31D17825B005F2B7A /* LaunchScreen.storyboard */; };
+		CCDE91DF1D17838F005F2B7A /* QYUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE91DD1D17838F005F2B7A /* QYUpdateController.m */; };
+		CCDE91E01D17838F005F2B7A /* QYUpdateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDE91DE1D17838F005F2B7A /* QYUpdateController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCDE91C21D17825B005F2B7A /* Demo01_对象间的通讯_property.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo01_对象间的通讯_property.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDE91C61D17825B005F2B7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCDE91C81D17825B005F2B7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCDE91C91D17825B005F2B7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCDE91CB1D17825B005F2B7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCDE91CC1D17825B005F2B7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCDE91CF1D17825B005F2B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCDE91D11D17825B005F2B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCDE91D41D17825B005F2B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCDE91D61D17825B005F2B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDE91DC1D17838F005F2B7A /* QYUpdateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYUpdateController.h; sourceTree = "<group>"; };
+		CCDE91DD1D17838F005F2B7A /* QYUpdateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYUpdateController.m; sourceTree = "<group>"; };
+		CCDE91DE1D17838F005F2B7A /* QYUpdateController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYUpdateController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCDE91BF1D17825B005F2B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCDE91B91D17825B005F2B7A = {
+			isa = PBXGroup;
+			children = (
+				CCDE91C41D17825B005F2B7A /* Demo01_对象间的通讯_property */,
+				CCDE91C31D17825B005F2B7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCDE91C31D17825B005F2B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCDE91C21D17825B005F2B7A /* Demo01_对象间的通讯_property.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCDE91C41D17825B005F2B7A /* Demo01_对象间的通讯_property */ = {
+			isa = PBXGroup;
+			children = (
+				CCDE91C81D17825B005F2B7A /* AppDelegate.h */,
+				CCDE91C91D17825B005F2B7A /* AppDelegate.m */,
+				CCDE91CB1D17825B005F2B7A /* ViewController.h */,
+				CCDE91CC1D17825B005F2B7A /* ViewController.m */,
+				CCDE91DC1D17838F005F2B7A /* QYUpdateController.h */,
+				CCDE91DD1D17838F005F2B7A /* QYUpdateController.m */,
+				CCDE91DE1D17838F005F2B7A /* QYUpdateController.xib */,
+				CCDE91CE1D17825B005F2B7A /* Main.storyboard */,
+				CCDE91D11D17825B005F2B7A /* Assets.xcassets */,
+				CCDE91D31D17825B005F2B7A /* LaunchScreen.storyboard */,
+				CCDE91D61D17825B005F2B7A /* Info.plist */,
+				CCDE91C51D17825B005F2B7A /* Supporting Files */,
+			);
+			path = "Demo01_对象间的通讯_property";
+			sourceTree = "<group>";
+		};
+		CCDE91C51D17825B005F2B7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCDE91C61D17825B005F2B7A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCDE91C11D17825B005F2B7A /* Demo01_对象间的通讯_property */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDE91D91D17825B005F2B7A /* Build configuration list for PBXNativeTarget "Demo01_对象间的通讯_property" */;
+			buildPhases = (
+				CCDE91BE1D17825B005F2B7A /* Sources */,
+				CCDE91BF1D17825B005F2B7A /* Frameworks */,
+				CCDE91C01D17825B005F2B7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo01_对象间的通讯_property";
+			productName = "Demo01_对象间的通讯_property";
+			productReference = CCDE91C21D17825B005F2B7A /* Demo01_对象间的通讯_property.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCDE91BA1D17825B005F2B7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CCDE91C11D17825B005F2B7A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CCDE91BD1D17825B005F2B7A /* Build configuration list for PBXProject "Demo01_对象间的通讯_property" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCDE91B91D17825B005F2B7A;
+			productRefGroup = CCDE91C31D17825B005F2B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCDE91C11D17825B005F2B7A /* Demo01_对象间的通讯_property */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCDE91C01D17825B005F2B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDE91E01D17838F005F2B7A /* QYUpdateController.xib in Resources */,
+				CCDE91D51D17825B005F2B7A /* LaunchScreen.storyboard in Resources */,
+				CCDE91D21D17825B005F2B7A /* Assets.xcassets in Resources */,
+				CCDE91D01D17825B005F2B7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCDE91BE1D17825B005F2B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDE91DF1D17838F005F2B7A /* QYUpdateController.m in Sources */,
+				CCDE91CD1D17825B005F2B7A /* ViewController.m in Sources */,
+				CCDE91CA1D17825B005F2B7A /* AppDelegate.m in Sources */,
+				CCDE91C71D17825B005F2B7A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCDE91CE1D17825B005F2B7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDE91CF1D17825B005F2B7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCDE91D31D17825B005F2B7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDE91D41D17825B005F2B7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCDE91D71D17825B005F2B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCDE91D81D17825B005F2B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCDE91DA1D17825B005F2B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo01_对象间的通讯_property/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.Demo01--------property";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCDE91DB1D17825B005F2B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo01_对象间的通讯_property/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.Demo01--------property";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCDE91BD1D17825B005F2B7A /* Build configuration list for PBXProject "Demo01_对象间的通讯_property" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDE91D71D17825B005F2B7A /* Debug */,
+				CCDE91D81D17825B005F2B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDE91D91D17825B005F2B7A /* Build configuration list for PBXNativeTarget "Demo01_对象间的通讯_property" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDE91DA1D17825B005F2B7A /* Debug */,
+				CCDE91DB1D17825B005F2B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCDE91BA1D17825B005F2B7A /* Project object */;
+}
